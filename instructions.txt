@@ -42,6 +42,7 @@
 2): JShell is a Read-Eval-Print Loop (REPL), which evaluates declarations, 
     statements,and expressions as they are entered and then immediately 
     shows the results.
+    
             $ jshell 
 
             $ jshell /v
@@ -58,3 +59,7 @@
             jshell> lyric.to # <Tab>
             toCharArray() toLowerCase( toString() toUpperCase(
             jshell> lyric. # <Tab> 
+
+
+
+            $jshell> /vars     Output Sample for a Small Coding Session
