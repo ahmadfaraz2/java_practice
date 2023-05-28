@@ -92,3 +92,24 @@ a variable with the same type that needs to be associated to the field.
             Then Click on [Generate Getters and Setters]
 
 3): You can also do more stuff like [Generate GUI]            
+
+
+
+
+
+
+---------------------------Syntax of Method Declartion---------------------
+---------------------------------------------------------------------------
+
+[accessor] [returned type] [name] (type1 param1, type2 param2, ...) 
+{ // code
+    [ [maybe] return val]
+}
+
+Example:
+
+    public int sum(int num1, int num2)
+    {
+        int result = num1 + num2;
+        return result;
+    }
