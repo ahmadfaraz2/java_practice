@@ -1,0 +1,34 @@
+---------------Adding a Local Repository to GitHub-------------------
+----------------------------Using Git--------------------------------
+
+1): Create a new Repository on GitHub.com
+2): Open Git Bash
+3): Change the current working directory to your local project
+4): Use the [init] command tho initialize the local repository as a Git Repository
+            $ git init -b main
+5): Add the files in your new local Repository
+            $ git add .
+6): Commit the files that you have staged in your local Repository
+            $ git commit -m "any message"
+7): Copy the remote Repository URL
+8): In the commmand prompt, add the URL for the remote Repository where your 
+    local Repository will be pushed
+            $ git remote add origin <REMOTE_URL>
+            $ git remote -void   # verifies the remote url.
+9): Push the change in your local Repository to GitHub.com
+            $ git push origin main            
+
+
+
+
+
+----------------------Compiling Java Code Through------------------------
+----------------------------Command Prompt-------------------------------            
+
+
+1): Compiling the source Code
+            $ javac HelloWorld.javac
+
+2): Running the compilied files
+            $ java HelloWorld
+
