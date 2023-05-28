@@ -73,6 +73,14 @@ The encapsulation principle refers to hiding of data implementation by
 restricting access to it using special methods called accessors (getters) 
 and mutators (setters).
 
+-------------------------------Getters------------------------------------
+Getters are the simplest methods that are declared without any parameter,
+and return the value of the field they are associated with.
+
+------------------------------Setters------------------------------------
+Setters are methods that return nothing and declare as a parameter
+a variable with the same type that needs to be associated to the field.
+
 
 1): Basically this is the Extenstion which can we use to Generate [Getters] and
     [Setters].
