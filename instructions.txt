@@ -32,3 +32,29 @@
 2): Running the compilied files
             $ java HelloWorld
 
+
+--------------------------Some HelpFull Java Commands----------------------
+---------------------------------------------------------------------------
+
+1): List all the modules in your local JDK installation
+            $ java --list-modules
+
+2): JShell is a Read-Eval-Print Loop (REPL), which evaluates declarations, 
+    statements,and expressions as they are entered and then immediately 
+    shows the results.
+            $ jshell 
+
+            $ jshell /v
+            $ jshell /help
+            $ jshell /exit
+
+
+            $ jshell> lyric.toupper
+            |    Error: 
+            | cannot find symbol 
+            | symbol: method toupper()
+            | lyric.toupper() 
+            | ^-----------^
+            jshell> lyric.to # <Tab>
+            toCharArray() toLowerCase( toString() toUpperCase(
+            jshell> lyric. # <Tab> 
