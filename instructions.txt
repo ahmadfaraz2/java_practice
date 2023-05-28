@@ -42,7 +42,7 @@
 2): JShell is a Read-Eval-Print Loop (REPL), which evaluates declarations, 
     statements,and expressions as they are entered and then immediately 
     shows the results.
-    
+
             $ jshell 
 
             $ jshell /v
@@ -63,3 +63,24 @@
 
 
             $jshell> /vars     Output Sample for a Small Coding Session
+
+
+
+-------------------------------Java Extenstion---------------------------
+----------------------------Java Code Generators-------------------------
+
+The encapsulation principle refers to hiding of data implementation by
+restricting access to it using special methods called accessors (getters) 
+and mutators (setters).
+
+
+1): Basically this is the Extenstion which can we use to Generate [Getters] and
+    [Setters].
+
+2): How to use this?
+            Go to the end of class curely brace.
+            Then right click the mouse button.
+            Then go to [Java Code Generators] option
+            Then Click on [Generate Getters and Setters]
+
+3): You can also do more stuff like [Generate GUI]            
