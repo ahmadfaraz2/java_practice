@@ -14,7 +14,7 @@
 8): In the commmand prompt, add the URL for the remote Repository where your 
     local Repository will be pushed
             $ git remote add origin <REMOTE_URL>
-            $ git remote -void   # verifies the remote url.
+            $ git remote -v   # verifies the remote url.
 9): Push the change in your local Repository to GitHub.com
             $ git push origin main            
 
